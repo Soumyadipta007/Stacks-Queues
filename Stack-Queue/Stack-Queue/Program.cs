@@ -12,6 +12,8 @@ namespace Stack_Queue
             stackUsingLL.Push(56);
             Console.WriteLine("Stack Structure- ");
             stackUsingLL.Display();
+            stackUsingLL.IsEmpty();
+            stackUsingLL.Display();
         }
     }
 }
