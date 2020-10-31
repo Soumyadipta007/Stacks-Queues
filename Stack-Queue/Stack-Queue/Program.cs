@@ -14,6 +14,12 @@ namespace Stack_Queue
             stackUsingLL.Display();
             stackUsingLL.IsEmpty();
             stackUsingLL.Display();
+            QueueUsingLL queueUsingLL = new QueueUsingLL();
+            queueUsingLL.Enqueue(56);
+            queueUsingLL.Enqueue(30);
+            queueUsingLL.Enqueue(70);
+            Console.WriteLine("Queue Structure- ");
+            queueUsingLL.Display();
         }
     }
 }
